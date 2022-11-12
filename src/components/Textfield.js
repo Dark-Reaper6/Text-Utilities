@@ -92,11 +92,11 @@ export default function Textfield(props) {
                     <label htmlFor="exampleFormControlTextarea1" className="form-label"><h5 className="default-text" style={{backgroundColor: props.txtareaColor()}}>{props.heading}</h5></label>
                     <textarea className="form-control txt-area" style={{ backgroundColor: props.txtareaColor(), backdropFilter: props.mode === "light" ? "blur(2px)" : "blur(2px)", color: props.txtfieldColor(), borderRadius: props.mode === "light" ? "2px solid white" : "none", transition: ".5s" }} placeholder="Enter text here" value={text} onChange={onchange} id="exampleFormControlTextarea1" rows="10"></textarea>
                 </div>
-                <button className={`btn btn-${props.mode} mx-2`} disabled={text.length===0} onClick={convertToUpper}>Convert to upper case</button>
-                <button className={`btn btn-${props.mode} mx-2`} disabled={text.length===0} onClick={convertToLower}>Convert to lower case</button>
-                <button className={`btn btn-${props.mode} mx-2`} disabled={text.length===0} onClick={removeSpaces}>Remove extra spaces</button>
-                <button className={`btn btn-${props.mode} mx-2`} disabled={text.length===0} onClick={clear}>Clear text field</button>
-                <button className={`btn btn-${props.mode} mx-2`} disabled={text.length===0} onClick={copy }>{copyBtn}</button>
+                <button className={`btn btn-${props.mode} mx-2 my-2`} disabled={text.length===0} onClick={convertToUpper}>Convert to upper case</button>
+                <button className={`btn btn-${props.mode} mx-2 my-2`} disabled={text.length===0} onClick={convertToLower}>Convert to lower case</button>
+                <button className={`btn btn-${props.mode} mx-2 my-2`} disabled={text.length===0} onClick={removeSpaces}>Remove extra spaces</button>
+                <button className={`btn btn-${props.mode} mx-2 my-2`} disabled={text.length===0} onClick={clear}>Clear text field</button>
+                <button className={`btn btn-${props.mode} mx-2 my-2`} disabled={text.length===0} onClick={copy }>{copyBtn}</button>
                 <h2 className="default-text my-3" style={{backgroundColor: props.txtareaColor()}}>Your Passage summary</h2>
                 <span className="default-text" style={{backgroundColor: props.txtareaColor()}}><b>Your passage contains {text.split(" ").filter((input)=>{return input.length!==0}).length} words and {text.length} characters</b></span>
             </div>
