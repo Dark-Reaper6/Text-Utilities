@@ -1,0 +1,54 @@
+nav{
+    transition: all .7s;
+}
+
+.palette{
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+}
+.palette:hover{
+    transform: scale(1.2);
+    transition: .2s;
+}
+
+#alert{
+    width: 100%;
+    transition: all .7s;
+    text-align: center;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 2;
+}
+
+.color-palettes div{
+    display: inline;   
+    width: 5%;
+    /* height: 50%; */
+    background: yellow;
+}
+
+#palette-1{
+    width: 10px;
+    background: red;
+}
+
+.about-card{
+    transition: all .7s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 0;
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.crd-body{
+    transition: all .7s;
+}
+
+.about-container{
+    width: 100%;
+    height: 91.1%;
+    backdrop-filter: blur(3px);
+    padding: 5vh;
+}

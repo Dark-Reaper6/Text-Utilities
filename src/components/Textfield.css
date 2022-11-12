@@ -1,0 +1,8 @@
+.default-text{
+    /* background: rgba(255, 255, 255, 0.3); */
+    border-radius: 4px;
+    padding: 4px;
+    text-align: center;
+    vertical-align: center;
+    transition: all .5s;
+}
