@@ -1,7 +1,7 @@
 .body-div{
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, .0), rgba(0, 0, 0, .0)), url("Media\\bg 4.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, .0), rgba(0, 0, 0, .0)), url("./Media/bg 4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
